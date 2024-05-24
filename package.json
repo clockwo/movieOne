@@ -1,0 +1,21 @@
+{
+  "name": "-movieone",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "axios": "^1.7.1",
+    "on-change": "^5.0.1",
+    "vite": "^5.2.0"
+  },
+  "module": "index.ts",
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

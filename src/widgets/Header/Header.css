@@ -1,0 +1,55 @@
+.header {
+  display: flex;
+  align-items: center;
+  padding-block: 1rem;
+  background-color: #090808;
+  box-shadow: 0 0 0 100vmax #090808;
+  clip-path: inset(0 -100vmax);
+  gap: 11.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.header__logo {
+  width: 7.5625rem;
+  height: 1.25rem;
+}
+
+.header__menu {
+  display: flex;
+  gap: 2.625rem;
+}
+
+.menu__item {
+  color: rgb(115, 115, 115);
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.menu__item.active {
+  color: #fff;
+}
+
+.search {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0.3375rem;
+}
+
+.search__label {
+  position: absolute;
+  margin-left: 0.625rem;
+}
+
+.search__input {
+  background-color: rgb(22, 22, 21);
+  border: none;
+  padding: 7px 10px 8px 33px;
+  border-radius: 4px;
+
+  color: rgb(230, 230, 230);
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 17px;
+}

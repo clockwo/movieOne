@@ -1,0 +1,8 @@
+body {
+  background-color: #161615;
+}
+
+#app {
+  width: calc(90rem - 2.5rem * 2);
+  margin-inline: auto;
+}
